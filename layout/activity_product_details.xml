@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Product"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="buyprice"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/buyprice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="buyprice"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="sellprice"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/sellprice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="sellprice"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="supplier"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/supplier"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="supplier"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/editbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit details"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"  />
+</LinearLayout>

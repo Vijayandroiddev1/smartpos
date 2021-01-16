@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context=".customers.ApointmentActivity">
+
+    <EditText
+        android:id="@+id/etxt_apointment_customer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/round_border"
+        android:fontFamily="@font/sailec_regular"
+        android:hint="customer id"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/etxt_apointment_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/round_border"
+        android:fontFamily="@font/sailec_regular"
+        android:hint="Date"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/etxt_apointment_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/round_border"
+        android:fontFamily="@font/sailec_regular"
+        android:hint="Time"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/atcom_apointment_customerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/round_border"
+        android:fontFamily="@font/sailec_regular"
+        android:inputType="text"
+        android:hint="Customer Name"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:id="@+id/btn_apointment_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+</LinearLayout>
